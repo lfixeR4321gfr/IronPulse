@@ -1,0 +1,33 @@
+*{
+
+}
+.Request-container{
+    background-color: black;
+    display: flex;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.Request-Form{
+    background-color: rgb(223, 222, 228);
+    
+    width:100%;
+    max-width: 450px;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 3px 4px gray;
+
+}
+.input-group textarea{
+    width: 100%;
+    min-height: 8rem;
+    font-size: 18px;
+    border-radius: 1rem;
+    border: 1px green;
+    outline: none;
+    text-align: center;
+}
+.input-group textarea:hover{
+    box-shadow: 1px 1px 1px 2px rgb(178, 11, 39);
+}

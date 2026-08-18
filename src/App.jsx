@@ -19,7 +19,7 @@ import Services from "./Pages/Services.jsx";
 import Car from "./Pages/CarDiagnosis.jsx";
 import Motor from "./Pages/MotorMaintanance.jsx";
 import Automation from "./Pages/HomeAutomation.jsx";
-import Map from "./Pages/Map.jsx";
+import Map from "./Components/Map.jsx";
 
 import Requestform from "./Pages/Requestform.jsx";
 

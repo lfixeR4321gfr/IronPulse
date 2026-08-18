@@ -49,7 +49,7 @@ function Motor() {
 
                 <div className="cards">
                     <h3>Drills and Grider overall maintanance</h3>
-                    <img src="src\assets\Drills.jpg" alt="Moter troubleshooting" />
+                    <img src="src\assets\Drills.jpg" alt="Drill image" />
                     <p> Discriptions</p>
                 </div>
 

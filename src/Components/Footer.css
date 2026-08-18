@@ -1,6 +1,6 @@
 .footer{
     font-size:20px;
-    background:rgb(153, 117, 184);
+    background:rgb(74, 74, 89);
     padding:40px;
     border-top: 4px solid rgb(8, 23, 235);
     bottom:0%;
@@ -10,14 +10,39 @@
   gap: 10rem;
 }
 
+.promo h2{
+  color: rgb(233, 11, 240);
+  font-style: italic;
+}
+.promo p{
+  color: aqua;
+}
+
+.promo li{
+  color: aliceblue;
+}
+
+.contact h2{
+  color: rgb(238, 10, 208);
+  font-style: italic;
+}
+.contact li{
+  color: aliceblue;
+}
+
 .copyright p{
   font-size: 18px;
+  color: aliceblue;
   text-align: center;
   border-top: 1px solid aliceblue;
   font-style: italic;
 
 
   
+}
+.quick-links h2{
+  color: rgb(243, 8, 169);
+  font-style: italic;
 }
 .quick-links a{
   font-size: 18px;

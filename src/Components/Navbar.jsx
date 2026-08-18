@@ -17,9 +17,10 @@ function Navbar() {
                 <Link to="/">Home</Link>
                 <Link to="/about">About us</Link>
                 <Link to="/contact">Contact</Link>
+                <Link to="/map">Map</Link> 
                 <Link to="/services">Services</Link>
-                 <Link to="/map">Map</Link> 
                 <Link to="/login">Login</Link>
+                
                 {/* <Link to="/requestform">Requestform</Link> */}
                 {/* <Link to="/dashboard">Dashboard</Link> */}
            

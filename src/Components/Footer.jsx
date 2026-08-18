@@ -1,5 +1,6 @@
 
 import "./Footer.css";
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -8,7 +9,7 @@ function Footer() {
       <div className="footer-box">
 
       <div className="promo">
-        <h3> Meet your trusted patners in Zanzibar</h3>
+        <h2> Meet your trusted patners in Zanzibar</h2>
        
       
       <ul>
@@ -20,11 +21,11 @@ function Footer() {
       </div>
 
       <div className="contact">
-        <h3>Contact</h3>
+        <h2>Contact</h2>
         <ul>
           <li>☎️ +255627496194 </li>
-          <li>WhatssApp+255679784927 </li>
-          <li>Email allyfaki162@gmail.com </li>
+          <li>WhatssApp +255679784927 </li>
+          <li>Email-allyfaki162@gmail.com </li>
         
         </ul>
         
@@ -33,13 +34,23 @@ function Footer() {
         <div className="quick-links">
        
           <h2>Quick Links</h2>
+
+          
           {/* <Link to="/register">Register here</Link> */}
-          <a href="/">Home</a> <br></br>
+          {/* <a href="/">Home</a> <br></br>
           <a href="/about">About us</a> <br></br>
           <a href="/service">Services</a><br></br>
           <a href="/map">Map</a><br></br>
           <a href="/register">Register</a>  <br></br>
-          <a href="/login">Login</a>
+          <a href="/login">Login</a> */}
+
+
+          <Link to="/">Home</Link>    <br></br>
+          <Link to="/about">About us</Link>   <br></br>
+          <Link to="/contact">Contact</Link>    <br></br>
+          <Link to="/services">Services</Link>  <br></br>
+          <Link to="/map">Map</Link>   <br></br>
+          <Link to="/login">Login</Link>    <br></br>
 
     
         </div>
